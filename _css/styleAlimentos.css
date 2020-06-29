@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+#comidas img
+{
+	height: 200px;
+	width: 195px;
+}
+
+ul#comidas li
+{
+	display: inline-block;
+	list-style: none;
+}
+
+figcaption
+{
+	color: #fff;
+	font-weight: bold;
+	background: #7ac143;
+	transition: 1s;
+}
+
+figure:hover figcaption
+{
+	background-color: rgb(89,143,48);
+	transition: 1s;
+	-webkit-transform: rotate(5.5deg);
+}
+
+h2
+{
+	margin-left: 0px;
+	font-size: 12pt;
+}
+
+.superH2
+{
+	text-align: center;
+	padding: 50px;
+	font-size: 16pt;
+}
+
+.fig2
+{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+

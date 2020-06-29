@@ -1,0 +1,314 @@
+@charset utf-8;
+
+/*Domcumento css para Alimentação em Angola* - Todas as páginas(Casa = Index)*/
+
+body
+{
+	background: url("../_galeria/_imagens/3.jpg") no-repeat center fixed;
+	background-size: cover;
+	border-radius: 7px;
+	color: #000;
+	font-family: Montserrat;
+}
+
+#corpo-da-pagina
+{
+	width: 900px;
+	background-color: #fff;
+	padding: 50px;
+	padding-bottom: 50px;
+	margin: 80px auto 80px auto;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+
+
+nav#menu 
+{
+	text-transform: uppercase;
+	text-align: center;
+	top: 10px;
+	margin: -10px -50px 40px -50px;
+	padding: 1px;
+	-webkit-transition: 2s;
+	background: #7ac143;
+}
+
+nav#menu h2
+{
+	display: none;
+}
+
+nav#menu
+{
+	padding-left: 20px;
+}
+				
+nav#menu li
+{
+	display: inline-block;
+	list-style: none;
+}
+
+nav#menu li a
+{
+	text-decoration: none;
+    color: #fff;
+    font-family: inherit;
+	-webkit-transition: 1s;
+}
+
+
+nav#menu li a:hover
+{
+	color: rgba(0,0,0,.5);
+	-webkit-transition: 1s;
+	background: rgba(122,193,67,.4);
+	padding: 10px;
+}
+				
+article p
+{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #7ac143;
+	transition: 1s;
+}
+
+a:hover
+{
+	transition: 1s;
+}
+
+img 
+{
+	border: 3px solid rgb(122,193,67);;
+}
+
+/*Imagens*/
+
+#img2
+{
+	height: 401.5px;
+	width: 460px;
+	margin-left: -40px;
+	margin-top: -4px;
+	margin-bottom: 1000px;
+}
+
+.imgs
+{
+	position: absolute;
+	height: 20 0px;
+	width: 410px;
+	margin-left: 445px;
+	top: 318px
+}
+
+#img5
+{
+	position: absolute;
+	margin-left: -40px;
+	margin-top: -1005px;
+	width: 895px;
+	height: 100px;
+}
+
+#produtos
+{
+	background-color: rgba(0,0,0,.1);
+	border: 2px solid #fff;
+	font-weight: bold;
+	color: #fff;
+	width: 130px;
+	height: 40px;
+	-webkit-transition: 1s;
+	margin-bottom: 20px;
+	margin-left: -50px;
+	cursor: pointer;
+}
+
+#produtos:hover
+{
+	background-color: #7ac143;
+}
+
+#img6
+{
+	height: 450px;
+	width: 250px;
+}
+
+#img3
+{
+	position: absolute;
+	height: 190px;
+}
+
+#img4
+{
+	position: absolute;
+	margin-top: 217px;
+	height: 185px;
+}
+
+#img1
+{
+	height: 550px;
+	width: 550px;
+	border-radius: 10px;
+	margin-left: 170px;
+}
+
+#d1
+{
+	position: absolute;
+	margin-top: -1150px;
+	margin-left: 500px;
+	color: #fff;
+}
+
+#d2
+{
+	position: absolute;
+	margin-top: -1150px;
+	margin-left: 15px;
+	color: #fff;
+}
+
+#d3
+{
+	position: absolute;
+	margin-top: -1360px;
+	margin-left: 500px;
+	color: #fff;
+}
+
+#d4
+{
+	position: absolute;
+	margin-top: -980px;
+	margin-left: -40px;
+	margin-right: 225px;
+	color: #fff;
+}
+
+#d4 a
+{
+	color: #fff;
+	text-shadow: 2px 3px  #7ac143;;
+}
+
+#fig figcaption
+{
+	display: none;
+}
+
+footer#rodape p
+{
+	padding-top: 50px;
+	margin-top: 40px;
+	margin-bottom: -10px;
+	text-align: center;
+	color: #000;
+}
+
+/*Produtos*/
+
+#comidas img
+{
+	height: 200px;
+	width: 195px;
+}
+
+#menu2
+{
+	margin-top: -800px;
+	margin-left: 600px;
+	display: inline-block;
+}
+
+#menu2 li
+{
+	display: inline-block;
+	padding: 10px;
+	margin-left: 15px;
+	background: #7ac143;
+}
+
+#menu2 li a
+{
+	color: #fff;
+}
+
+#menu2 a:hover
+{
+	color: rgba(0,0,0,.5);
+	-webkit-transition: 1s;
+	background: rgba(122,193,67,.4);
+	padding: 10px;
+}
+
+ul.bebidas
+{
+	position: absolute;
+	margin-top: -750px;
+}
+
+
+#h22
+{
+	position: absolute;
+	margin-top: -850px;
+	margin-left: -600px;
+	background-color: #7ac143;
+	padding: 20px;
+	transition: 1s;
+}
+
+#h22:hover
+{
+	color: #fff;
+	padding: 25px;
+	transition: 1s;
+
+}
+
+ul#comidas li
+{
+	display: inline-block;
+	list-style: none;
+}
+
+ul figcaption
+{
+	color: #fff;
+	font-weight: bold;
+	background: #7ac143;
+	transition: 1s;
+}
+
+ul figure:hover figcaption
+{
+	background-color: rgb(89,143,48);
+	transition: 1s;
+	-webkit-transform: rotate(5.5deg);
+	cursor: pointer;
+}
+
+ul h2
+{
+	margin-left: 0px;
+	font-size: 12pt;
+}
+
+ul .fig2
+{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+

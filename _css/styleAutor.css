@@ -1,0 +1,78 @@
+@charset utf-8;
+
+/*Domcumento css para Alimentação em Angola - Autor(Emanuel Cândido)*/
+body
+{
+	background: url("../_galeria/_imagens/6.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+
+h1
+{
+	text-align: center;
+	margin-top: 100px;
+}
+
+
+#dados1
+{ 
+	position: absolute;
+	left: 800px;
+	top: 350px;
+}
+
+#dados1 p
+{
+	padding-bottom: -10px;
+	padding-top: -10px;
+}
+
+.dados2
+{
+	font-weight: bold;
+}
+
+#img2
+{
+	margin-left: 250px;
+	margin-top: 50px;
+	height: 400px;
+	width: 450px;
+	background-size: cover;
+}
+
+#img3
+{
+	height: 50px;
+	width: 50px;
+}
+
+#img4
+{
+	position: absolute;	
+	border-radius: 100px;
+	height: 80px;
+	left: 370px;
+	top: 0px;
+}
+
+header #cabecalho
+{
+	position: absolute;
+	left: 910px;
+	top: 0px;
+}
+
+li
+{
+	display: inline-block;
+	list-style: none;
+	margin-top: 20px;
+}
+
+ul li img
+{
+	height: 50px;
+	width: 50px;
+}
+

@@ -1,0 +1,44 @@
+if (isset($_POST['Entrar'])) 
+										{
+											
+
+											if (($usuario == "Emanuel Cândido") and ($password == "Emanuel12")) 
+											{
+												header('Location: manipular.php');
+											}
+											else
+											{
+												echo '<div id="again">Tente novamente, <span><label for="iduser">usuario</label></span> ou <span><label for="idPassword">password</label></span> inválida.</div>';
+											}
+										}
+
+											session_start();
+										$usuario = isset($_POST['Usuario']) ? $_POST['Usuario']:0; 
+										$password = isset($_POST['Password']) ? $_POST['Password']:0;
+
+										$query = "SELECT * FROM Conta WHERE Usuario = '$usuario' and Password = '$password'";
+										$exeqr = mysqli_query($db, $query) or die (mysql_error());
+
+											if (mysqli_num_rows($exeqr) <= 0) 
+											{
+												echo $usuario;
+												echo $password;
+												unset($_SESSION['Usuario']);
+												unset($_SESSION['Password']);
+												
+											}
+											else
+											{
+												$_SESSION['Usuario'] = $usuario;
+												$_SESSION['Password'] = $password;
+												header('Location: manipular.php');
+											}
+
+
+											
+										if((!isset($_SESSION['Usuario']) == true) and (!isset($_SESSION['Password'] == true)))
+										{
+											unset($_SESSION['Usuario']);
+											unset($_SESSION['Password']);
+											header('Location: adm.php');
+										}

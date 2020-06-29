@@ -1,0 +1,40 @@
+ @charset utf-8;
+
+/*Domcumento css para Alimentação em Angola - Serviços*/
+
+#img6
+{
+	margin-top: 80px;
+	margin-left: 205px;
+	height: 400px;
+	width: 400px;
+	border: none;
+}
+
+nav h2
+{
+	text-align: center;
+}
+
+nav li
+{
+	text-align: center;
+	list-style: none;
+	font-weight: 18px;
+}
+
+ol li a:hover
+{
+	text-decoration: underline;
+	padding: 10px;
+}
+
+h3
+{
+	margin-top: 100px;
+}
+
+#pl
+{
+	margin-bottom: 50px;
+}

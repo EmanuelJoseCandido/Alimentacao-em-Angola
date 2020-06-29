@@ -1,0 +1,56 @@
+@charset utf-8;
+
+/*Domcumento css para Alimentação em Angola* - Todas as páginas(Casa = Index)*/
+
+footer#rodape p
+{
+	margin-top: 40px;
+	text-align: center;
+}
+
+#primeiro p#cornao a
+{
+	color: #7ac143;
+}
+
+#primeiro p a
+{
+	color: #fff;
+}
+
+
+#p1
+{
+	color: #fff;
+}
+
+.a1
+{
+	margin-right: 500px;
+}
+
+.a2
+{
+	margin-left: 500px;
+}
+
+#p12
+{
+	margin-bottom: 100px;
+}
+
+
+.p1
+{
+	background: #7ac143;
+	width: 350px;
+	height: 300px;
+	padding: 90px 20px 10px 30px;
+	border-radius: 20px 100px;
+}
+
+marquee
+{
+	background-color: #7ac143; 
+}
+
